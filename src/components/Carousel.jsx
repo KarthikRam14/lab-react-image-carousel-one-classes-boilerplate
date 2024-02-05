@@ -24,8 +24,8 @@ class Carousel extends Component {
                     <ArrowBackIosIcon style={{fontSize: 30}}/>
                 </div>
                 <div className="center">
-                    <h1>{images[this.state.currImg].title}</h1>
-                    <p>{images[this.state.currImg].subtitle}</p>
+                    <h1 className="text">{images[this.state.currImg].title}</h1>
+                    <p className="text">{images[this.state.currImg].subtitle}</p>
                 </div>
                 <div className="right" onClick={()=>{
                     this.state.currImg < images.length - 1 && this.setState({currImg:this.state.currImg +1})

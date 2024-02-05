@@ -1,1 +1,16 @@
-/* write your carousel css in this file */
+*{
+    text-align: center;
+}
+
+.carouselInner{
+    height: 38vw;
+    width: 38vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    background-color: rgb(255, 255, 255, 0.8) ;
+    width: max-content;
+}
